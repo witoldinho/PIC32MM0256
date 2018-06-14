@@ -43,6 +43,7 @@
 */
 
 #include "mcc_generated_files/mcc.h"
+#define kloaka initV 
 
 /*
                          Main application
@@ -60,6 +61,7 @@ int main(void)
 
     // Disable the Global Interrupts
     //INTERRUPT_GlobalDisable();
+    
 
     while (1)
     {
