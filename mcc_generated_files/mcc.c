@@ -88,6 +88,7 @@ void SYSTEM_Initialize(void)
     PIN_MANAGER_Initialize();
     OSCILLATOR_Initialize();
     INTERRUPT_Initialize();
+    USBInitialize();
     SPI2_Initialize();
     INTERRUPT_GlobalEnable();
 }
